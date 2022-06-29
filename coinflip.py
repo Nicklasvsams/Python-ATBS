@@ -22,9 +22,7 @@ for experimentNumber in range(10000):
             streak = 0
             lastCoin = ''
 
-        if i > 94:
-            break
-        elif currentCoin == lastCoin:
+        if currentCoin == lastCoin:
             streak += 1
         else:
             streak = 0
