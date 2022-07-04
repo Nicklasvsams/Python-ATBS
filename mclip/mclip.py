@@ -8,7 +8,7 @@ TEXT = {'agree': """Yes, I agree. That sounds fine to me.""",
 import sys, pyperclip
 
 if len(sys.argv) < 2:
-    print('Usage: python mclip.py [keyphrase] - copy phrase text')
+    print('Usage: py mclip.py [keyphrase] - copy phrase text')
     sys.exit
 
 keyphrase = sys.argv[1] # First command line is the keyphrase
